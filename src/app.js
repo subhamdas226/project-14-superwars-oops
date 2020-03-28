@@ -40,18 +40,7 @@ class Player {
     view = () => {
         // Accumulate HTML template
         // Type your code here
-        let player = document.createElement('div');
-        player.classList.add('player');
-        player.setAttribute('data-id', this.id);
-        let image = document.createElement('img');
-        image.setAttribute('src', this.image);
-        let name = document.createElement('div');
-        name.textContent = this.name;
-        let strength = document.createElement('div');
-        strength.textContent = this.strength;
-        strength.className = 'strength';
-        player.append(image, name, strength);
-        return player;
+        
     }
 }
 
